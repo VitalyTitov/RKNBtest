@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RKNBtest", "RKNBtest\RKNBtest.csproj", "{74C41D83-F338-4A39-8CB5-603F64090A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRKNBtest", "TestRKNBtest\TestRKNBtest.csproj", "{48056B45-B574-47D9-A7C9-977C235CB0D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRKNBtest", "TestRKNBtest\TestRKNBtest.csproj", "{48056B45-B574-47D9-A7C9-977C235CB0D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CE60852-D169-4348-A17E-3FFD0EC6327B}"
+	ProjectSection(SolutionItems) = preProject
+		Руководство.txt = Руководство.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
