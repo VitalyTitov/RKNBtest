@@ -89,8 +89,7 @@
                 headers: {
                     "Accept": "application/json",
                     "Authorization": "Bearer " + token //передача токена
-                }, body: idvalute,
-                data: idvalute
+                }, body: idvalute
             });
             if (response.ok === true) {
                 const data = await response.json();
@@ -121,7 +120,7 @@
         document.getElementById("getDataValute").addEventListener("click", e => {
 
             e.preventDefault();
-            getDataId("/api/values/getValute");
+            getDataId("/currency/getValute");
         });
     </script>
 </body>
